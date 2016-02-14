@@ -1,0 +1,27 @@
+PODS:
+  - Masonry (0.6.4)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - MMPlaceHolder (1.9)
+
+DEPENDENCIES:
+  - Masonry (~> 0.6.3)
+  - MMDrawerController (~> 0.5.7)
+  - MMPlaceHolder (~> 1.9)
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  MMPlaceHolder: 40212b9dfe8760134b1b2fce3232f0d46200178f
+
+COCOAPODS: 0.39.0

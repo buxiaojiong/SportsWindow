@@ -1,0 +1,4 @@
+platform:ios,’6.0’
+pod 'MMDrawerController', '~> 0.5.7'
+pod 'MMPlaceHolder', '~> 1.9'
+pod 'Masonry', '~> 0.6.3'
