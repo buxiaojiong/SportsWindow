@@ -23,7 +23,7 @@
     MainViewController *mainVc = [[MainViewController alloc] init];
     UINavigationController *naVc = [[UINavigationController alloc] initWithRootViewController:mainVc];
     naVc.navigationBar.barTintColor = [UIColor colorWithRed:183/255.0 green:7/255.0 blue:16/255.0 alpha:1.0];
-    
+    [naVc.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:19],NSForegroundColorAttributeName:[UIColor whiteColor]}];
  
     LeftViewController *leftVc = [[LeftViewController alloc] init];
     self.drawerController = [[MMDrawerController alloc] initWithCenterViewController:naVc leftDrawerViewController:leftVc];
@@ -34,7 +34,6 @@
     [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeCustom];
     [self.drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
     
-
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window setRootViewController:self.drawerController];

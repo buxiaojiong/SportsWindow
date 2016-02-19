@@ -33,7 +33,6 @@ UITableViewDelegate
     self.automaticallyAdjustsScrollViewInsets = NO;
     
     self.title = @"我的收藏";
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:19],NSForegroundColorAttributeName:[UIColor whiteColor]}];
     
     UIButton *leftDrawerButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
     [leftDrawerButton setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];

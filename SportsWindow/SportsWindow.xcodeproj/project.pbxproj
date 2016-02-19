@@ -80,6 +80,7 @@
 		50E7E3BB1C4F9B2D00CEAAA0 /* xukaung_gou.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E7E38A1C4F9B2D00CEAAA0 /* xukaung_gou.png */; };
 		50E7E3BC1C4F9B2D00CEAAA0 /* xukuang.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E7E38B1C4F9B2D00CEAAA0 /* xukuang.png */; };
 		50E7E3BD1C4F9B2D00CEAAA0 /* zan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E7E38C1C4F9B2D00CEAAA0 /* zan@2x.png */; };
+		50F7C09A1C76EA8200615285 /* MemberCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F7C0991C76EA8200615285 /* MemberCenterView.m */; };
 		6CC37894A21BC2628343DEED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E3061956EE208747250DCA /* libPods.a */; };
 		867402CA1C4D573D00412DFA /* BXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 867402C91C4D573D00412DFA /* BXButton.m */; };
 /* End PBXBuildFile section */
@@ -204,6 +205,8 @@
 		50E7E38A1C4F9B2D00CEAAA0 /* xukaung_gou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xukaung_gou.png; path = image/xukaung_gou.png; sourceTree = "<group>"; };
 		50E7E38B1C4F9B2D00CEAAA0 /* xukuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xukuang.png; path = image/xukuang.png; sourceTree = "<group>"; };
 		50E7E38C1C4F9B2D00CEAAA0 /* zan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zan@2x.png"; path = "image/zan@2x.png"; sourceTree = "<group>"; };
+		50F7C0981C76EA8200615285 /* MemberCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberCenterView.h; sourceTree = "<group>"; };
+		50F7C0991C76EA8200615285 /* MemberCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberCenterView.m; sourceTree = "<group>"; };
 		867402C81C4D573D00412DFA /* BXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXButton.h; sourceTree = "<group>"; };
 		867402C91C4D573D00412DFA /* BXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXButton.m; sourceTree = "<group>"; };
 		EF10DBEDB400332452017673 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -285,6 +288,8 @@
 				5047AB4B1C4F241F00BEB440 /* ColumnViewController.m */,
 				50905F311C48FC88008906B8 /* MemberCenterViewController.h */,
 				50905F321C48FC88008906B8 /* MemberCenterViewController.m */,
+				50F7C0981C76EA8200615285 /* MemberCenterView.h */,
+				50F7C0991C76EA8200615285 /* MemberCenterView.m */,
 				50527A7B1C4E19ED00B90D85 /* UserNameViewController.h */,
 				50527A7C1C4E19ED00B90D85 /* UserNameViewController.m */,
 				50905F221C48BFF8008906B8 /* NotificationViewController.h */,
@@ -665,6 +670,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				504432241C5079EC00953E5E /* AddKeyWordViewController.m in Sources */,
+				50F7C09A1C76EA8200615285 /* MemberCenterView.m in Sources */,
 				50905F1E1C489BFC008906B8 /* LeftViewController.m in Sources */,
 				50905F331C48FC88008906B8 /* MemberCenterViewController.m in Sources */,
 				50905F271C48C01C008906B8 /* CollectViewController.m in Sources */,
