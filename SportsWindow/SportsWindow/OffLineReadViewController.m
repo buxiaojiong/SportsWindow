@@ -222,8 +222,8 @@ UITableViewDelegate
     [alterView addSubview:title];
     [title mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(alterView);
-        make.left.equalTo(alterView).offset(40);
-        make.right.equalTo(alterView).offset(-40);
+        make.left.equalTo(alterView).offset(20);
+        make.right.equalTo(alterView).offset(-20);
         make.top.equalTo(alterView).offset(30);
         make.height.equalTo(@20);
     }];
