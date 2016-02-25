@@ -16,6 +16,7 @@
 #import "LeftTableViewCell.h"
 #import "SignInView.h"
 
+
 @interface LeftViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) UIView *headView;
@@ -172,20 +173,20 @@
     
     if (indexPath.section == 1) {
         if (indexPath.row == 0) {
-            NSNotification * notice = [NSNotification notificationWithName:@"noticeVC" object:nil userInfo:nil];
+            NSNotification * notice = [NSNotification notificationWithName:noticeVC object:nil userInfo:nil];
             [[NSNotificationCenter defaultCenter] postNotification:notice];
         }
         else if (indexPath.row == 1){
-            NSNotification * notice = [NSNotification notificationWithName:@"collectVC" object:nil userInfo:nil];
+            NSNotification * notice = [NSNotification notificationWithName:collectVC object:nil userInfo:nil];
             [[NSNotificationCenter defaultCenter] postNotification:notice];
         }
         else if (indexPath.row == 2){
-            NSNotification * notice = [NSNotification notificationWithName:@"commentVC" object:nil userInfo:nil];
+            NSNotification * notice = [NSNotification notificationWithName:commentVC object:nil userInfo:nil];
             [[NSNotificationCenter defaultCenter] postNotification:notice];
         }
     }
     else if (indexPath.section == 2){
-        NSNotification * notice = [NSNotification notificationWithName:@"offLineVC" object:nil userInfo:nil];
+        NSNotification * notice = [NSNotification notificationWithName:offLineVC object:nil userInfo:nil];
         [[NSNotificationCenter defaultCenter] postNotification:notice];
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];

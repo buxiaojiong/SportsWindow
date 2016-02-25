@@ -1,0 +1,14 @@
+//
+//  SportsWindow-Prefix.pch
+//  SportsWindow
+//
+//  Created by sourcecode on 16/2/25.
+//  Copyright © 2016年 sourcecode. All rights reserved.
+//
+
+#ifndef SportsWindow_Prefix_pch
+#define SportsWindow_Prefix_pch
+
+#import "Constants.h"
+
+#endif /* SportsWindow_Prefix_pch */

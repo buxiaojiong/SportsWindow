@@ -102,7 +102,7 @@
 {
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     [appDelegate.drawerController closeDrawerAnimated:YES completion:nil];
-    NSNotification * notice = [NSNotification notificationWithName:@"memberVC" object:nil userInfo:nil];
+    NSNotification * notice = [NSNotification notificationWithName:memberVC object:nil userInfo:nil];
     [[NSNotificationCenter defaultCenter] postNotification:notice];
 }
 

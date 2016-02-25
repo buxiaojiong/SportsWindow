@@ -399,14 +399,12 @@ UITableViewDelegate
 
 - (void)cancleBtnPressed:(id)sender
 {
-    
     [UIView animateWithDuration:0.3 animations:^{
         alterView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.0, 0.0);
         cover.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0];
     } completion:^(BOOL finished) {
         [cover removeFromSuperview];
     }];
-    
 }
 
 - (void)downLoadBtnPressed:(id)sender

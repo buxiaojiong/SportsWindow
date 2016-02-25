@@ -32,6 +32,7 @@
 		50527BE51C51FDB5003E983A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 50527BE41C51FDB5003E983A /* UINavigationController+FDFullscreenPopGesture.m */; };
 		50527BE71C521A6D003E983A /* downtip.png in Resources */ = {isa = PBXBuildFile; fileRef = 50527BE61C521A6D003E983A /* downtip.png */; };
 		505615531C4CBAEF00D33A13 /* NotificationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505615521C4CBAEF00D33A13 /* NotificationDetailViewController.m */; };
+		5069CA6F1C7E95CE00F2E956 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5069CA6E1C7E95CE00F2E956 /* Constants.m */; };
 		50905F1E1C489BFC008906B8 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50905F1D1C489BFC008906B8 /* LeftViewController.m */; };
 		50905F211C48A2C5008906B8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50905F201C48A2C5008906B8 /* MainViewController.m */; };
 		50905F241C48BFF8008906B8 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50905F231C48BFF8008906B8 /* NotificationViewController.m */; };
@@ -148,6 +149,9 @@
 		50527BE61C521A6D003E983A /* downtip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downtip.png; sourceTree = "<group>"; };
 		505615511C4CBAEF00D33A13 /* NotificationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationDetailViewController.h; sourceTree = "<group>"; };
 		505615521C4CBAEF00D33A13 /* NotificationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationDetailViewController.m; sourceTree = "<group>"; };
+		5069CA6D1C7E95CE00F2E956 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5069CA6E1C7E95CE00F2E956 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		5069CA701C7E97E500F2E956 /* SportsWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SportsWindow-Prefix.pch"; sourceTree = "<group>"; };
 		50905F1C1C489BFC008906B8 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		50905F1D1C489BFC008906B8 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		50905F1F1C48A2C5008906B8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -263,11 +267,13 @@
 		503EF6651C48932C00764C1F /* SportsWindow */ = {
 			isa = PBXGroup;
 			children = (
+				5069CA6D1C7E95CE00F2E956 /* Constants.h */,
+				5069CA6E1C7E95CE00F2E956 /* Constants.m */,
+				503EF6691C48932C00764C1F /* AppDelegate.h */,
+				503EF66A1C48932C00764C1F /* AppDelegate.m */,
 				867402CB1C4D5AA700412DFA /* DIYControl */,
 				505615581C4CE54300D33A13 /* lib */,
 				5056154E1C4C7F3600D33A13 /* category */,
-				503EF6691C48932C00764C1F /* AppDelegate.h */,
-				503EF66A1C48932C00764C1F /* AppDelegate.m */,
 				50905F1C1C489BFC008906B8 /* LeftViewController.h */,
 				50905F1D1C489BFC008906B8 /* LeftViewController.m */,
 				50905F2E1C48F5DD008906B8 /* LeftTableViewCell.h */,
@@ -310,6 +316,7 @@
 				503EF6741C48932C00764C1F /* LaunchScreen.storyboard */,
 				503EF6771C48932C00764C1F /* Info.plist */,
 				503EF6661C48932C00764C1F /* Supporting Files */,
+				5069CA701C7E97E500F2E956 /* SportsWindow-Prefix.pch */,
 			);
 			path = SportsWindow;
 			sourceTree = "<group>";
@@ -674,6 +681,7 @@
 				50905F1E1C489BFC008906B8 /* LeftViewController.m in Sources */,
 				50905F331C48FC88008906B8 /* MemberCenterViewController.m in Sources */,
 				50905F271C48C01C008906B8 /* CollectViewController.m in Sources */,
+				5069CA6F1C7E95CE00F2E956 /* Constants.m in Sources */,
 				50905F2A1C48C0EB008906B8 /* CommentViewController.m in Sources */,
 				5044321B1C5067F400953E5E /* AttentionView.m in Sources */,
 				5047AB4C1C4F241F00BEB440 /* ColumnViewController.m in Sources */,
@@ -828,6 +836,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportsWindow/SportsWindow-Prefix.pch";
 				INFOPLIST_FILE = SportsWindow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sourcecode.SportsWindow;
@@ -843,6 +853,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportsWindow/SportsWindow-Prefix.pch";
 				INFOPLIST_FILE = SportsWindow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sourcecode.SportsWindow;

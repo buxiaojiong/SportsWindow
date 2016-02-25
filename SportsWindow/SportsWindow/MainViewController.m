@@ -48,11 +48,11 @@
     [self setupRightMenuButtons];
 
     NSNotificationCenter * center = [NSNotificationCenter defaultCenter];
-    [center addObserver:self selector:@selector(notice:) name:@"noticeVC" object:nil];
-    [center addObserver:self selector:@selector(collect:) name:@"collectVC" object:nil];
-    [center addObserver:self selector:@selector(comment:) name:@"commentVC" object:nil];
-    [center addObserver:self selector:@selector(offLine:) name:@"offLineVC" object:nil];
-    [center addObserver:self selector:@selector(memberCt:) name:@"memberVC" object:nil];
+    [center addObserver:self selector:@selector(notice:) name:noticeVC object:nil];
+    [center addObserver:self selector:@selector(collect:) name:collectVC object:nil];
+    [center addObserver:self selector:@selector(comment:) name:commentVC object:nil];
+    [center addObserver:self selector:@selector(offLine:) name:offLineVC object:nil];
+    [center addObserver:self selector:@selector(memberCt:) name:memberVC object:nil];
 
 
 
